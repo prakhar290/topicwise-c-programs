@@ -1,11 +1,11 @@
 #include<stdio.h>
 void deletion(int[],int*);
-int insertarray(int[],int);
-void ascending(int[],int);
-void reverse(int[],int);
-void evenodd(int [],int);
-void sum(int [],int);
-void prime(int [],int);
+int insertarray(int[], int);
+void ascending(int[], int);
+void reverse(int[], int);
+void evenodd(int [], int);
+void sum(int [], int);
+void prime(int [], int);
 void main()
 {
 int i,a[100],n,b,c=0,d=0,loc,key,x,y;
