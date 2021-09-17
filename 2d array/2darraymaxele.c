@@ -1,10 +1,10 @@
 #include<stdio.h>
 int main()
 {
+    int a[10][10];
     int row,col,i,j;
     printf("enter the size of rows and columns: ");
     scanf("%d %d",&row,&col);
-    int a[row][col];
     printf("\n enter the elements of array: ");
     for(i=0;i<row;i++)
     {   for(j=0;j<col;j++)
